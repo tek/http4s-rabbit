@@ -14,7 +14,7 @@ There are four separate sbt subprojects:
 
 This principle makes development and maintenance much more bearable and reliable.
 
-* if there is a error in `core`, compilation will stop before descending into the dependent projects.
+* if there is an error in `core`, compilation will stop before descending into the dependent projects
 * unit tests can be paired with the tested code in a minimal way
 * not having access to IO concerns in the business logic forces the dev to design orthogonally
 * concerns are easily replaceable and mockable
